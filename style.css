@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin-top: -20px;
+}
+
+.navbar {
+    height: 13vh;
+    background-color: black;
+    margin-left: 60px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0 20px;
+    width: 100%%;
+    color: white;
+}
+.logo {
+    float: left;
+    margin-left: 60px;
+    margin-top: 26px;
+    width: 150px;
+}
+
+.list {
+    border-left: 2px solid #777777;
+    margin: 30px auto;
+    margin-left: 30px;
+    padding-left: 20px;
+    float: left;
+    width: 70%;
+    height: 50px;
+}
+
+.grow-list {
+    width: 70%;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+.list-item {
+    list-style-type: none;
+    float: left;
+    display: inline;
+    margin: 10px 10px;
+    background-color: black;
+}
+
+.button-small {
+    border: none;
+    float: left;
+    background-color: #ba0cc5;
+    color: white;
+    padding: 10px 40px;
+    margin-top: 32px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+div:nth-child(4) {
+    width: 20%;
+    float: right;
+    height: 80px;
+}
+
+
+/* Main Page Content Styling */
+
+.main {
+    /* background-image: url(./assets/bg.png); */
+    background: url(./assets/bg.png) no-repeat center center / cover;
+}
+
+.hero {
+    height: 90vh;
+    padding-top: 40px;
+}
+
+
+h1 {
+    width: 50%;
+    margin: 20px auto;
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    background: transparent;
+}
+
+p {
+    margin-top: -20px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    background: transparent;
+}
+
+.button-large {
+    display: block;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+    margin: 30px auto;
+    background-color: #ba0cc5;
+    border: none;
+
+}
